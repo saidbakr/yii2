@@ -44,7 +44,7 @@ http://hostname/index.php?r=gii
 ```
 
 > Note: If you are accessing Gii from a machine other than localhost, the access will be denied by default
-> for security purpose. You can configure Gii to add the allowed IP addresses as follows,
+> for security purpose. You can configure Gii to add the allowed IP -In What file?- addresses as follows,
 >
 ```php
 'gii' => [
