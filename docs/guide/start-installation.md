@@ -229,6 +229,7 @@ server {
 
     location / {
         # Redirect everything that isn't a real file to index.php
+        # This is Apache mod rewrite for pretty URLs equivalent in nginx
         try_files $uri $uri/ /index.php$is_args$args;
     }
 
